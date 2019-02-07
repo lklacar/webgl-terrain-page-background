@@ -91,20 +91,20 @@ const FirstPersonControls = function (object, domElement) {
         event.preventDefault();
         event.stopPropagation();
 
-        if (this.activeLook) {
-
-            switch (event.button) {
-
-                case 0:
-                    this.moveForward = true;
-                    break;
-                case 2:
-                    this.moveBackward = true;
-                    break;
-
-            }
-
-        }
+        // if (this.activeLook) {
+        //
+        //     switch (event.button) {
+        //
+        //         case 0:
+        //             this.moveForward = true;
+        //             break;
+        //         case 2:
+        //             this.moveBackward = true;
+        //             break;
+        //
+        //     }
+        //
+        // }
 
         this.mouseDragOn = true;
 

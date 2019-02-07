@@ -131,8 +131,13 @@ class App extends Component {
 
     render() {
         return (
-            <div id="container">
-                Generating...
+            <div>
+                <div id="container">
+                    Generating...
+                </div>
+                <div style={{position:"absolute", top:0,left:0, width: '100%', height:"100vh", display: 'flex', justifyContent: 'center', alignItems:'center'}}>
+                    <h1 style={{color: 'black'}}>Hello World</h1>
+                </div>
             </div>
         );
     }
